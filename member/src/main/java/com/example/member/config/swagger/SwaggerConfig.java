@@ -22,6 +22,7 @@ public class SwaggerConfig {
 
         String[] paths = {
                 "/healthcheck",
+                "/api/**"
                 };
 
         return GroupedOpenApi.builder()
